@@ -26,6 +26,7 @@ alias ka="killall" \
 	lsp="pacman -Qett --color=always | less" \
 	ffmpeg="ffmpeg -hide_banner"\
 	dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME" \
+	dprogs="/usr/bin/git --git-dir=$HOME/progs/.progs/ --work-tree=$HOME/progs/" \
 
 
 command -v nvim >/dev/null && alias vim="nvim" vimdiff="nvim -d" # Use neovim for vim if present.
