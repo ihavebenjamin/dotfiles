@@ -1,0 +1,549 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Marks:
+
+# Bookmarks:
+
+# TUI:
+al
+q0
+v1
+ov
+m-1
+l2
+r2
+
+# Left window history (oldest to newest):
+d/home/benjamin/Documents/ENG101
+	mlatest.synctex.gz
+10
+d/home/benjamin/Documents
+	ENG101
+3
+d/home/benjamin/Documents/ENG101
+	mlatest.synctex.gz
+10
+d/home/benjamin/Documents
+	versaregistration.pdf
+24
+d/home/benjamin
+	Documents
+1
+d/home/benjamin/Documents
+	ASU
+1
+d/home/benjamin/Documents/ASU
+	DL.jpg
+9
+d/home/benjamin/Documents
+	Math
+4
+d/home/benjamin
+	Downloads
+2
+d/home/benjamin/Downloads
+	anarchy-1.1.0-x86_64.iso.torrent
+37
+d/home/benjamin
+	.config
+4
+d/home/benjamin/.config
+	i3
+25
+d/home/benjamin/.config/i3
+	config
+1
+d/home/benjamin/.config
+	fontconfig
+16
+d/home/benjamin
+	Documents
+1
+d/home/benjamin/Documents
+	projects
+7
+d/home/benjamin/Documents/projects
+	BARBS
+1
+d/home/benjamin/Documents/projects/BARBS
+	progs.csv
+2
+d/home/benjamin/Documents/projects
+	BARBS
+1
+d/home/benjamin/Documents
+	projects
+7
+d/home/benjamin
+	progs
+7
+d/home/benjamin/progs
+	st
+11
+d/home/benjamin/progs/st
+	config.mk
+12
+d/home/benjamin
+	progs
+7
+d/home/benjamin/progs
+	st
+11
+d/home/benjamin/progs/st
+	config.mk
+12
+d/home/benjamin
+	Downloads
+2
+d/home/benjamin/Downloads
+	progs.csv
+48
+d/home/benjamin
+	Documents
+1
+d/home/benjamin/Documents
+	projects
+7
+d/home/benjamin/Documents/projects
+	BARBS
+1
+d/home/benjamin/Documents/projects/BARBS
+	progs.csv
+2
+d/home/benjamin/Documents/projects
+	BARBS
+1
+d/home/benjamin/Documents
+	projects
+7
+d/home/benjamin
+	Documents
+1
+d/home/benjamin/Documents
+	projects
+7
+d/home/benjamin/Documents/projects
+	BARBS
+1
+d/home/benjamin/Documents
+	529.pdf
+7
+d/home/benjamin
+	progs
+7
+d/home/benjamin/progs
+	projects
+9
+d/home/benjamin
+	progs
+11
+
+# Right window history (oldest to newest):
+D/home/benjamin/Documents/ENG101
+	..
+0
+D/home/benjamin
+	
+0
+D/home/benjamin/projects/GROFF-MOM
+	Notes-Page-Setup.pdf
+4
+D/home/benjamin/projects
+	Resume
+3
+D/home/benjamin/projects/Resume
+	KathyA
+1
+D/home/benjamin/projects/Resume/KathyA
+	KathyA.aux
+2
+D/home/benjamin
+	
+0
+D/home/benjamin/config
+	..
+0
+D/home/benjamin
+	.config
+2
+D/home/benjamin/.config
+	i3
+11
+D/home/benjamin/.config/i3
+	config
+1
+D/home/benjamin/.config
+	i3
+11
+D/home/benjamin
+	.config
+2
+D/home/benjamin/.config
+	i3
+11
+D/home/benjamin/.config/i3
+	config
+1
+D/home/benjamin/.config
+	i3
+11
+D/home/benjamin
+	Pictures
+5
+D/home/benjamin/Pictures
+	..
+0
+D/home/benjamin
+	Pictures
+5
+D/run/media/benjamin
+	
+0
+D/home/benjamin
+	..
+0
+D/home/benjamin/progs/st
+	
+0
+D/home/benjamin
+	..
+0
+D/home/benjamin/.config/powerline-shell
+	
+0
+D/home/benjamin/.config
+	..
+0
+D/home/benjamin/powerline-shell
+	..
+0
+D/home/benjamin
+	Documents
+2
+D/home/benjamin/Documents
+	Neomutt
+5
+D/home/benjamin/Documents/Neomutt
+	..
+0
+D/home/benjamin/Documents
+	dotfiles
+7
+D/home/benjamin/Documents/dotfiles
+	..
+0
+D/home/benjamin/Documents
+	ASU
+1
+D/home/benjamin/Documents/ASU
+	Paystubs
+3
+D/home/benjamin/Documents/ASU/Paystubs
+	..
+0
+D/home/benjamin/Documents/ASU
+	asu-immunizationrequirement.pdf
+16
+D/home/benjamin/Documents
+	ASU
+1
+D/home/benjamin
+	..
+0
+D/home/benjamin/Documents/book
+	
+0
+D/home/benjamin
+	
+0
+
+# Command line history (oldest to newest):
+: git config --global user.email "benjamin.anderson@zoho.com"
+:!git config --global user.email "benjamin.anderson@zoho.com"
+:kkkkkkkkkkkkkkkkkkkk
+:git gui
+:!python setup.py
+:!pip remove powerline-shell
+:!pip uninstall powerline-shell
+:!chmod +x battery.py
+:!sudo chmod +x 
+:!./batterypl
+:!mpv *.mp4
+:!vim watchshows
+:sudo su
+:!sudo su
+:! ./surf-open.sh
+:! make clean install
+:!surf
+:!./surf
+:!chmod +x surf
+:! sudo make clean install
+:!touch ripme
+:!sudo chmod +x ripme
+:!touch
+:!touch uripme
+:!sudo chmod +x uripme
+:Q
+:sort
+:vlc *.mp4
+:!vlc *.mp4
+:mkdir 03.2020
+:!vim chapter001.tex
+:!./st
+:! git pull
+:h
+:!make clean && sudo make install
+:! git clone 
+:!./launch.sh
+:w
+:!make clean
+:!sudo make install
+:! git push origin master
+
+# Search history (oldest to newest):
+/hosts
+/conf
+/mu
+/mut
+/mutt
+/nvim
+/vim
+/lo
+/.vimr
+/vimr
+/ripme
+/java
+/win
+/chan
+/uhd
+
+# Prompt history (oldest to newest):
+pconfig.def.h
+pmuttrc
+p.mbsyncrc1
+p.mbsyncrc
+pneomuttrc.bak
+pneomuttrc1
+pmutt.bak
+pneomutt.bak
+p.neomuttrc
+pmailcap
+pnotmuch.muttrc
+ppolybar
+p.mailcap
+p.vimrc
+pconfigi1.h
+pMusic
+p.vimrc1
+pinit.vim
+pinit.vimW
+pinit1
+pvim
+pconfig
+pconfig1.h
+p.init1.vim
+pnfig --global user.name "Your Name"
+pbatterypl.sh
+pbatterypl
+p.tmux.conf.new
+p.tmux.conf
+p.channels
+p000001.mp4
+p000002.mp4
+p000003.mp4
+p0000001 abs
+pWo
+pbenjamin
+pchanpter01.tex
+pconfig.h
+pprogs.csv
+
+# Local filter history (oldest to newest):
+
+# Registers:
+
+# Directory stack (oldest to newest):
+
+# Trash content:
+t/home/benjamin/.local/share/vifm/Trash/000_old
+	/home/benjamin/old
+t/home/benjamin/.local/share/vifm/Trash/000_config.h
+	/home/benjamin/progs/st/config.h
+t/home/benjamin/.local/share/vifm/Trash/000_st
+	/home/benjamin/progs/st
+t/home/benjamin/.local/share/vifm/Trash/005_vim-latex-live-preview
+	/home/benjamin/.config/nvim/plugged/vim-latex-live-preview
+t/home/benjamin/.local/share/vifm/Trash/000_vimtex
+	/home/benjamin/.config/nvim/plugged/vimtex
+t/home/benjamin/.local/share/vifm/Trash/001_YouCompleteMe
+	/home/benjamin/.config/nvim/plugged/YouCompleteMe
+t/home/benjamin/.local/share/vifm/Trash/000_.vimrc
+	/home/benjamin/.vimrc
+t/home/benjamin/.local/share/vifm/Trash/000_ultisnips
+	/home/benjamin/.config/nvim/plugged/ultisnips
+t/home/benjamin/.local/share/vifm/Trash/007_vim-latex-live-preview
+	/home/benjamin/.config/nvim/vim-latex-live-preview
+t/home/benjamin/.local/share/vifm/Trash/000_UltiSnips
+	/home/benjamin/UltiSnips
+t/home/benjamin/.local/share/vifm/Trash/000_Templates
+	/home/benjamin/Templates
+t/home/benjamin/.local/share/vifm/Trash/000_home
+	/home/benjamin/home
+t/home/benjamin/.local/share/vifm/Trash/000_latexmk
+	/home/benjamin/latexmk
+t/home/benjamin/.local/share/vifm/Trash/000_larbs.sh
+	/home/benjamin/larbs.sh
+t/home/benjamin/.local/share/vifm/Trash/000_mozilla.pdf
+	/home/benjamin/mozilla.pdf
+t/home/benjamin/.local/share/vifm/Trash/000_pic-selected-190805-1746-01.png
+	/home/benjamin/pic-selected-190805-1746-01.png
+t/home/benjamin/.local/share/vifm/Trash/000_test.py
+	/home/benjamin/test.py
+t/home/benjamin/.local/share/vifm/Trash/000_.git
+	/home/benjamin/.git
+t/home/benjamin/.local/share/vifm/Trash/000_config.json
+	/home/benjamin/.config/powerline-shell/config.json
+t/home/benjamin/.local/share/vifm/Trash/000_powerline-shell
+	/home/benjamin/.config/powerline-shell
+t/home/benjamin/.local/share/vifm/Trash/000_batterypl
+	/home/benjamin/.config/powerline-shell/segments/batterypl
+t/home/benjamin/.local/share/vifm/Trash/000_batterypl.sh
+	/home/benjamin/.config/powerline-shell/segments/batterypl.sh
+t/home/benjamin/.local/share/vifm/Trash/000_Mail
+	/home/benjamin/Mail
+t/home/benjamin/.local/share/vifm/Trash/000_mail
+	/home/benjamin/mail
+t/home/benjamin/.local/share/vifm/Trash/000_Zoho
+	/home/benjamin/Mail/Zoho
+t/home/benjamin/.local/share/vifm/Trash/001_mail
+	/home/benjamin/.local/share/mail
+t/home/benjamin/.local/share/vifm/Trash/000_neomutt.bak
+	/home/benjamin/.config/neomutt.bak
+t/home/benjamin/.local/share/vifm/Trash/000_mutt
+	/home/benjamin/.config/mutt
+t/home/benjamin/.local/share/vifm/Trash/000_.mbsyncrc
+	/home/benjamin/.mbsyncrc
+t/home/benjamin/.local/share/vifm/Trash/000_config
+	/home/benjamin/.config/msmtp/config
+t/home/benjamin/.local/share/vifm/Trash/000_zoho
+	/home/benjamin/Mail/zoho/zoho
+t/home/benjamin/.local/share/vifm/Trash/000_.offlineimaprc
+	/home/benjamin/.offlineimaprc
+t/home/benjamin/.local/share/vifm/Trash/000_.neomuttrc.bak
+	/home/benjamin/.neomuttrc.bak
+t/home/benjamin/.local/share/vifm/Trash/000_.mbsyncrc1
+	/home/benjamin/.mbsyncrc1
+t/home/benjamin/.local/share/vifm/Trash/000_mutt-wizard-personal-gmail.gpg
+	/home/benjamin/.password-store/mutt-wizard-personal-gmail.gpg
+t/home/benjamin/.local/share/vifm/Trash/000_mutt-wizard-personal-zoho.gpg
+	/home/benjamin/.password-store/mutt-wizard-personal-zoho.gpg
+t/home/benjamin/.local/share/vifm/Trash/000_mutt-wizard-school-asu.gpg
+	/home/benjamin/.password-store/mutt-wizard-school-asu.gpg
+t/home/benjamin/.local/share/vifm/Trash/000_mutt-wizard-school-maricopa.gpg
+	/home/benjamin/.password-store/mutt-wizard-school-maricopa.gpg
+t/home/benjamin/.local/share/vifm/Trash/000_.offlineimap
+	/home/benjamin/.offlineimap
+t/home/benjamin/.local/share/vifm/Trash/000_[Gmail].Important
+	/home/benjamin/.local/share/mail/maricopa/[Gmail].Important
+t/home/benjamin/.local/share/vifm/Trash/000_[Gmail].Starred
+	/home/benjamin/.local/share/mail/maricopa/[Gmail].Starred
+t/home/benjamin/.local/share/vifm/Trash/000_[Gmail].Spam
+	/home/benjamin/.local/share/mail/maricopa/[Gmail].Spam
+t/home/benjamin/.local/share/vifm/Trash/001_[Gmail].Spam
+	/home/benjamin/.local/share/mail/asu/[Gmail].Spam
+t/home/benjamin/.local/share/vifm/Trash/000_mutt-wizard-school-maricopa.gpg
+	/home/benjamin/.config/mutt/mutt-wizard-school-maricopa.gpg
+t/home/benjamin/.local/share/vifm/Trash/000_mutt-wizard-school-asu.gpg
+	/home/benjamin/.config/mutt/mutt-wizard-school-asu.gpg
+t/home/benjamin/.local/share/vifm/Trash/000_mutt-wizard-personal-zoho.gpg
+	/home/benjamin/.config/mutt/mutt-wizard-personal-zoho.gpg
+t/home/benjamin/.local/share/vifm/Trash/000_mutt-wizard-personal-gmail.gpg
+	/home/benjamin/.config/mutt/mutt-wizard-personal-gmail.gpg
+t/home/benjamin/.local/share/vifm/Trash/000_ripme
+	/home/benjamin/.config/ripme
+t/home/benjamin/.local/share/vifm/Trash/000_vim
+	/home/benjamin/vim
+t/home/benjamin/.local/share/vifm/Trash/000_ripme-git
+	/home/benjamin/.cache/yay/ripme-git
+t/home/benjamin/.local/share/vifm/Trash/000_reddit_sub_blowjobsandwitch
+	/home/benjamin/.rips/reddit_sub_blowjobsandwitch
+t/home/benjamin/.local/share/vifm/Trash/000_reddit_user_thehiddensins
+	/home/benjamin/.rips/reddit_user_thehiddensins
+t/home/benjamin/.local/share/vifm/Trash/000_.rips
+	/home/benjamin/.rips
+t/home/benjamin/.local/share/vifm/Trash/000_ripme.jar
+	/home/benjamin/Downloads/ripme.jar
+t/home/benjamin/.local/share/vifm/Trash/002_ripme
+	/home/benjamin/Downloads/ripme
+t/home/benjamin/.local/share/vifm/Trash/000_surf-2.0
+	/home/benjamin/progs/surf-2.0
+t/home/benjamin/.local/share/vifm/Trash/001_surf-2.0
+	/home/benjamin/.local/bin/surf-2.0
+t/home/benjamin/.local/share/vifm/Trash/000_helloworld.py
+	/home/benjamin/helloworld.py
+t/home/benjamin/.local/share/vifm/Trash/000_parkingspot.pdf
+	/home/benjamin/parkingspot.pdf
+t/home/benjamin/.local/share/vifm/Trash/000_pic-selected-190821-1737-22.png
+	/home/benjamin/pic-selected-190821-1737-22.png
+t/home/benjamin/.local/share/vifm/Trash/000_stuff.py
+	/home/benjamin/stuff.py
+t/home/benjamin/.local/share/vifm/Trash/000_test.html.html
+	/home/benjamin/test.html.html
+t/home/benjamin/.local/share/vifm/Trash/000_test.pdf
+	/home/benjamin/test.pdf
+t/home/benjamin/.local/share/vifm/Trash/000_abook_contacts
+	/home/benjamin/abook_contacts
+t/home/benjamin/.local/share/vifm/Trash/000_vimwiki
+	/home/benjamin/vimwiki
+t/home/benjamin/.local/share/vifm/Trash/001_powerline-shell
+	/home/benjamin/powerline-shell
+t/home/benjamin/.local/share/vifm/Trash/001_config
+	/home/benjamin/config
+t/home/benjamin/.local/share/vifm/Trash/000_go
+	/home/benjamin/go
+t/home/benjamin/.local/share/vifm/Trash/000_Desktop
+	/home/benjamin/Desktop
+t/home/benjamin/.local/share/vifm/Trash/000_Public
+	/home/benjamin/Public
+t/home/benjamin/.local/share/vifm/Trash/000_pic-full-190701-1824-41.png
+	/home/benjamin/Pictures/screenshots/pic-full-190701-1824-41.png
+t/home/benjamin/.local/share/vifm/Trash/000_pic-full-190708-1024-05.png
+	/home/benjamin/Pictures/screenshots/pic-full-190708-1024-05.png
+t/home/benjamin/.local/share/vifm/Trash/000_pic-full-190717-0939-47.png
+	/home/benjamin/Pictures/screenshots/pic-full-190717-0939-47.png
+t/home/benjamin/.local/share/vifm/Trash/000_pic-full-190727-1120-27.png
+	/home/benjamin/Pictures/screenshots/pic-full-190727-1120-27.png
+t/home/benjamin/.local/share/vifm/Trash/000_pic-full-190727-2352-20.png
+	/home/benjamin/Pictures/screenshots/pic-full-190727-2352-20.png
+t/home/benjamin/.local/share/vifm/Trash/000_pic-full-190731-2024-59.png
+	/home/benjamin/Pictures/screenshots/pic-full-190731-2024-59.png
+t/home/benjamin/.local/share/vifm/Trash/000_pic-full-190731-2025-00.png
+	/home/benjamin/Pictures/screenshots/pic-full-190731-2025-00.png
+t/home/benjamin/.local/share/vifm/Trash/000_pic-full-190803-1603-56.png
+	/home/benjamin/Pictures/screenshots/pic-full-190803-1603-56.png
+t/home/benjamin/.local/share/vifm/Trash/000_pic-full-190803-1750-30.png
+	/home/benjamin/Pictures/screenshots/pic-full-190803-1750-30.png
+t/home/benjamin/.local/share/vifm/Trash/000_pic-full-190901-1855-21.png
+	/home/benjamin/Pictures/screenshots/pic-full-190901-1855-21.png
+t/home/benjamin/.local/share/vifm/Trash/000_pic-full-191115-2027-30.png
+	/home/benjamin/Pictures/screenshots/pic-full-191115-2027-30.png
+t/home/benjamin/.local/share/vifm/Trash/000_pic-selected-190701-1824-56.png
+	/home/benjamin/Pictures/screenshots/pic-selected-190701-1824-56.png
+t/home/benjamin/.local/share/vifm/Trash/000_org.kde.yakuake.desktop
+	/home/benjamin/.config/autostart/org.kde.yakuake.desktop
+t/home/benjamin/.local/share/vifm/Trash/000_procps
+	/home/benjamin/.config/procps
+t/home/benjamin/.local/share/vifm/Trash/000_reddit_sub_fitnakedgirls
+	/home/benjamin/Downloads/rips/reddit_sub_fitnakedgirls
+t/home/benjamin/.local/share/vifm/Trash/001_reddit_sub_highresnsfw
+	/home/benjamin/Downloads/rips/reddit_sub_highresnsfw
+t/home/benjamin/.local/share/vifm/Trash/000_reddit_sub_proboned
+	/home/benjamin/Downloads/rips/reddit_sub_proboned
+t/home/benjamin/.local/share/vifm/Trash/000_reddit_sub_probone
+	/home/benjamin/Downloads/rips/reddit_sub_probone
+t/home/benjamin/.local/share/vifm/Trash/000_hosts
+	/home/benjamin/progs/hosts/hosts
+t/home/benjamin/.local/share/vifm/Trash/000_porn
+	/home/benjamin/progs/hosts/alternates/porn
+t/home/benjamin/.local/share/vifm/Trash/000_Test
+	/home/benjamin/Documents/Test
