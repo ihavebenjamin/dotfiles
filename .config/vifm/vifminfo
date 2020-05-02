@@ -6,7 +6,7 @@
 
 # TUI:
 al
-q1
+q0
 v2
 ov
 m-1
@@ -14,57 +14,12 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/benjamin/.config/polybar/polybar-scripts/polybar-scripts
-	openweathermap-fullfeatured
-47
-d/home/benjamin/.config/polybar/polybar-scripts/polybar-scripts/openweathermap-fullfeatured
-	openweathermap-fullfeatured.sh
+d/home/benjamin/.config/polybar/scripts/polybar-spotify
+	README.md
 3
-d/home/benjamin/.config/polybar/polybar-scripts/polybar-scripts
-	openweathermap-fullfeatured
-47
-d/home/benjamin/.config/polybar/polybar-scripts
-	polybar-scripts
-3
-d/home/benjamin/.config/polybar
-	scripts
-2
 d/home/benjamin/.config/polybar/scripts
-	battery-combined-udev.sh
-1
-d/home/benjamin/.config/polybar
-	scripts
-2
-d/home/benjamin/.config
-	i3
-23
-d/home/benjamin/.config/i3
-	config
-1
-d/home/benjamin
-	.config
-4
-d/home/benjamin/.config
-	i3
-23
-d/home/benjamin/.config/i3
-	config
-1
-d/home/benjamin
-	.config
-4
-d/home/benjamin/.config
-	i3
-23
-d/home/benjamin/.config/i3
-	config
-1
-d/home/benjamin/.config
-	i3
-19
-d/home/benjamin/.config/i3
-	config
-1
+	spotify_status.py
+3
 d/home/benjamin
 	.local
 12
@@ -75,29 +30,80 @@ d/home/benjamin/.local/bin
 	statusbar
 3
 d/home/benjamin/.local/bin/statusbar
-	disk
-4
-d/home/benjamin
-	.config
-4
-d/home/benjamin/.config
-	sxhkd
-43
-d/home/benjamin/.config/sxhkd
-	sxhkdrc
+	mailbox
+8
+d/home/benjamin/.local/bin
+	statusbar
+3
+d/home/benjamin/.local
+	bin
 1
 d/home/benjamin
 	.config
 4
 d/home/benjamin/.config
-	i3
-19
-d/home/benjamin/.config/i3
-	config
+	polybar
+34
+d/home/benjamin/.config/polybar
+	scripts
+2
+d/home/benjamin/.config/polybar/scripts
+	polybar-spotify
+1
+d/home/benjamin/.config/polybar
+	polybar-scripts
+1
+d/home/benjamin/.config/polybar/polybar-scripts
+	polybar-scripts
+3
+d/home/benjamin/.config/polybar/polybar-scripts/polybar-scripts
+	battery-combined-udev
+3
+d/home/benjamin/.config/polybar/polybar-scripts/polybar-scripts/battery-combined-udev
+	..
+0
+d/home/benjamin/.config/polybar/polybar-scripts/polybar-scripts
+	battery-combined-tlp
+2
+d/home/benjamin/.config/polybar/polybar-scripts/polybar-scripts/battery-combined-tlp
+	README.md
+2
+d/home/benjamin/.config/polybar/polybar-scripts/polybar-scripts
+	battery-combined-shell
+1
+d/home/benjamin/.config/polybar/polybar-scripts/polybar-scripts/battery-combined-shell
+	battery-combined-shell.sh
+2
+d/home/benjamin/.config/polybar/polybar-scripts/polybar-scripts
+	battery-combined-shell
+1
+d/home/benjamin/.config/polybar/polybar-scripts/polybar-scripts/battery-combined-shell
+	README.md
+1
+d/home/benjamin/.config/polybar/polybar-scripts/polybar-scripts
+	battery-combined-tlp
+2
+d/home/benjamin/.config/polybar/polybar-scripts/polybar-scripts/battery-combined-tlp
+	screenshots
+1
+d/home/benjamin/.config/polybar/polybar-scripts/polybar-scripts
+	battery-combined-udev
+3
+d/home/benjamin/.config/polybar/polybar-scripts/polybar-scripts/battery-combined-udev
+	README.md
+2
+d/home/benjamin/.config/polybar/polybar-scripts/polybar-scripts
+	battery-combined-udev
+3
+d/home/benjamin/.config/polybar/polybar-scripts
+	polybar-scripts
+3
+d/home/benjamin/.config/polybar
+	polybar-scripts
 1
 d/home/benjamin/.config
-	getkeys
-13
+	polybar
+34
 d/home/benjamin
 	.local
 12
@@ -126,37 +132,16 @@ d/home/benjamin/.config/polybar
 	scripts
 2
 d/home/benjamin/.config/polybar/scripts
-	polybar-spotify
-1
-d/home/benjamin/.config/polybar/scripts/polybar-spotify
-	spotify_status.py
-4
-d/home/benjamin/.config/polybar/scripts
-	polybar-spotify
-1
-d/home/benjamin/.config/polybar/scripts/polybar-spotify
-	README.md
-3
+	battery
+2
+d/home/benjamin/.config/polybar
+	scripts
+2
 d/home/benjamin/.config/polybar/scripts
 	spotify_status.py
 3
 
 # Right window history (oldest to newest):
-D/home/benjamin/.config/polybar
-	user_modules.ini
-12
-D/home/benjamin/Documents/ENG101
-	..
-0
-D/home/benjamin
-	
-0
-D/home/benjamin/projects/GROFF-MOM
-	Notes-Page-Setup.pdf
-4
-D/home/benjamin/projects
-	Resume
-3
 D/home/benjamin/projects/Resume
 	KathyA
 1
@@ -260,12 +245,31 @@ D/home/benjamin/Documents/book
 	
 0
 D/home/benjamin
-	..
-0
+	.config
+4
+D/home/benjamin/.config
+	polybar
+40
+D/home/benjamin/.config/polybar
+	scripts
+2
+D/home/benjamin/.config/polybar/scripts
+	battery-combined-shell.sh
+2
+D/home/benjamin/.config/polybar
+	scripts
+2
+D/home/benjamin/.config/polybar/scripts
+	battery-combined-udev.sh
+4
+D/home/benjamin/.config/polybar
+	scripts
+2
+D/home/benjamin/.config/polybar/scripts
+	spotify_status.py
+3
 
 # Command line history (oldest to newest):
-:!pip remove powerline-shell
-:!pip uninstall powerline-shell
 :!chmod +x battery.py
 :!sudo chmod +x 
 :!./batterypl
@@ -301,11 +305,13 @@ D/home/benjamin
 :! git push origin master
 :! chmod +x battery-combined-udev.sh
 :mkdir scripts
-:w
 :!sudo chmod +x battery-combined-udev.sh
 :su
 :!chmod +x openweathermap-fullfeatured.sh
 :!chmod +x spotify_status.py
+:!chmod +x battery-combined-shell.sh
+:!chmod +x battery-combined-tlp.sh
+:w
 
 # Search history (oldest to newest):
 /hosts
@@ -364,11 +370,14 @@ pbenjamin
 pchanpter01.tex
 pconfig.h
 pprogs.csv
+pbattery
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/benjamin/.config/polybar/scripts/polybar-spotify/spotify_status.py
+""/home/benjamin/.local/share/vifm/Trash/000_battery-combined-shell.sh
+""/home/benjamin/.local/share/vifm/Trash/000_battery-combined-tlp.sh
+""/home/benjamin/.local/share/vifm/Trash/000_battery-combined-udev.sh
 
 # Directory stack (oldest to newest):
 
@@ -567,3 +576,11 @@ t/home/benjamin/.local/share/vifm/Trash/000_kde
 	/home/benjamin/kde
 t/home/benjamin/.local/share/vifm/Trash/000_pkglist.txt
 	/home/benjamin/pkglist.txt
+t/home/benjamin/.local/share/vifm/Trash/000_:w
+	/home/benjamin/.config/polybar/:w
+t/home/benjamin/.local/share/vifm/Trash/000_battery-combined-shell.sh
+	/home/benjamin/.config/polybar/scripts/battery-combined-shell.sh
+t/home/benjamin/.local/share/vifm/Trash/000_battery-combined-tlp.sh
+	/home/benjamin/.config/polybar/scripts/battery-combined-tlp.sh
+t/home/benjamin/.local/share/vifm/Trash/000_battery-combined-udev.sh
+	/home/benjamin/.config/polybar/scripts/battery-combined-udev.sh

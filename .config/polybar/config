@@ -35,7 +35,7 @@ height = 21
 offset-x = 0%
 offset-y = 0%
 radius = 0.0
-fixed-center = true
+fixed-center = false
 bottom = false
 
 background = ${colors.background}
@@ -63,9 +63,9 @@ font-4 = Siji:style=Regular:pixelsize=100;2
 ;:::}}}
 
 ;;;{{{ORDER
-modules-left = bspwm i3  xwindow
-modules-center = spotify
-modules-right =  xbacklight pulseaudio mpd mailbox weather internet date bat
+modules-left = bspwm i3
+modules-center =
+modules-right = spotify xbacklight pulseaudio mpd mailbox weather internet date bat
 
 tray-position = right
 tray-padding = 1
@@ -139,6 +139,7 @@ label-urgent-padding = 1
 ;;;{{{ XWINDOW
 [module/xwindow]
 type = internal/xwindow
+format = <label>%{O-10}
 label = %{O20}%title:0:30:...%
 ;;;}}}
 
