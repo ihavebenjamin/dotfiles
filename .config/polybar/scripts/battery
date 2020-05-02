@@ -7,12 +7,9 @@ capacitya=$(echo $(($capacity1 + $capacity0))) || exit
 capacity=$(echo $(($capacitya / 2))  ) || exit
 status=$(cat /sys/class/power_supply/BAT1/status)
 
-while [ "$status" = "Charging" ]
-do
-	printf "  $(echo "$capacity")%%" && exit
-done
-
-if [ "$status" = "Unknown" ]; then
+if [ "$status" = "Charging" ]; then
+	printf " "
+elif [ "$status" = "Unknown" ]; then
 	printf "  "
 elif  [ "$status" = "Full" ]; then
 	printf "  "
