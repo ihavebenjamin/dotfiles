@@ -1,0 +1,32 @@
+#!/bin/sh
+# Give a battery name (e.g. BAT0) as an argument.
+
+capacity1=$(cat /sys/class/power_supply/BAT1/capacity) || exit
+capacity0=$(cat /sys/class/power_supply/BAT0/capacity) || exit
+capacitya=$(echo $(($capacity1 + $capacity0))) || exit
+capacity=$(echo $(($capacitya / 2))  ) || exit
+status=$(cat /sys/class/power_supply/BAT1/status)
+
+while [ "$status" = "Charging" ]
+do
+	printf "  $(echo "$capacity")%%" && exit
+done
+
+if [ "$status" = "Unknown" ]; then
+	printf "  "
+elif  [ "$status" = "Full" ]; then
+	printf "  "
+
+elif [ "$capacity" -le 10 ]; then
+	printf "  "
+elif [ "$capacity" -le 25 ]; then
+	printf "  "
+elif [ "$capacity" -le 50 ]; then
+	printf "  "
+elif [ "$capacity" -le 75 ]; then
+	printf "  "
+else
+	printf "  "
+fi
+
+printf  "$(echo "$capacity")%%" && exit

@@ -10,7 +10,7 @@
 # #---Basic Definitions---# #
 for_window [class="^.*"] border pixel 5
 for_window [class="^.*"] client.focused          #00FF00 #285577 #ffffff #2e9ef4   #285577
-gaps inner 10
+gaps inner 5
 gaps outer 3
 set $term --no-startup-id $TERMINAL
 set $mod Mod4
@@ -27,14 +27,15 @@ for_window [instance="dropdown_tmuxdd"] border pixel 3
 for_window [instance="dropdown_dropdowncalc"] border pixel 2
 for_window [instance="dropdown_*"] move position center
 
-bar {
-	font fontawesome 10
-	font pango:mono 10
-	status_command i3blocks
-	position top
-	mode dock
-	modifier None
-}
+#bar {
+#	font fontawesome 10
+#	font pango:mono 10
+#	status_command i3blocks
+#	position top
+#	#mode dock
+#	modifier None
+#}
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # #---Basic Bindings---# #
 bindsym $mod+Shift+Return	exec --no-startup-id samedir
@@ -125,17 +126,29 @@ bindsym $mod+apostrophe		split horizontal ;; exec $term
 bindsym $mod+slash		split vertical ;; exec $term
 bindsym $mod+Shift+slash	kill
 bindsym $mod+backslash		workspace back_and_forth
+## For i3blocks
+#set $ws1 "1:"
+#set $ws2 "2:"
+#set $ws3 "3:"
+#set $ws4 "4:"
+#set $ws5 "5"
+#set $ws6 "6"
+#set $ws7 "7"
+#set $ws8 "8:"
+#set $ws9 "9:
+#set $ws10 "10:"
 
-set $ws1 "1:"
-set $ws2 "2:"
-set $ws3 "3:"
-set $ws4 "4:"
+## For Polybar
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
 set $ws5 "5"
 set $ws6 "6"
 set $ws7 "7"
-set $ws8 "8:"
-set $ws9 "9:
-set $ws10 "10:"
+set $ws8 "8"
+set $ws9 "9"
+set $ws10 "10"
 
 # switch to workspace
 bindsym $mod+1		workspace $ws1

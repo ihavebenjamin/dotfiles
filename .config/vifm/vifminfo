@@ -6,139 +6,145 @@
 
 # TUI:
 al
-q0
-v1
+q1
+v2
 ov
 m-1
 l2
 r2
 
 # Left window history (oldest to newest):
-d/home/benjamin/Documents/ENG101
-	mlatest.synctex.gz
-10
-d/home/benjamin/Documents
-	ENG101
+d/home/benjamin/.config/polybar/polybar-scripts/polybar-scripts
+	openweathermap-fullfeatured
+47
+d/home/benjamin/.config/polybar/polybar-scripts/polybar-scripts/openweathermap-fullfeatured
+	openweathermap-fullfeatured.sh
 3
-d/home/benjamin/Documents/ENG101
-	mlatest.synctex.gz
-10
-d/home/benjamin/Documents
-	versaregistration.pdf
-24
-d/home/benjamin
-	Documents
-1
-d/home/benjamin/Documents
-	ASU
-1
-d/home/benjamin/Documents/ASU
-	DL.jpg
-9
-d/home/benjamin/Documents
-	Math
-4
-d/home/benjamin
-	Downloads
+d/home/benjamin/.config/polybar/polybar-scripts/polybar-scripts
+	openweathermap-fullfeatured
+47
+d/home/benjamin/.config/polybar/polybar-scripts
+	polybar-scripts
+3
+d/home/benjamin/.config/polybar
+	scripts
 2
-d/home/benjamin/Downloads
-	anarchy-1.1.0-x86_64.iso.torrent
-37
+d/home/benjamin/.config/polybar/scripts
+	battery-combined-udev.sh
+1
+d/home/benjamin/.config/polybar
+	scripts
+2
+d/home/benjamin/.config
+	i3
+23
+d/home/benjamin/.config/i3
+	config
+1
 d/home/benjamin
 	.config
 4
 d/home/benjamin/.config
 	i3
-25
+23
+d/home/benjamin/.config/i3
+	config
+1
+d/home/benjamin
+	.config
+4
+d/home/benjamin/.config
+	i3
+23
 d/home/benjamin/.config/i3
 	config
 1
 d/home/benjamin/.config
-	fontconfig
-16
+	i3
+19
+d/home/benjamin/.config/i3
+	config
+1
 d/home/benjamin
-	Documents
-1
-d/home/benjamin/Documents
-	projects
-7
-d/home/benjamin/Documents/projects
-	BARBS
-1
-d/home/benjamin/Documents/projects/BARBS
-	progs.csv
-2
-d/home/benjamin/Documents/projects
-	BARBS
-1
-d/home/benjamin/Documents
-	projects
-7
-d/home/benjamin
-	progs
-7
-d/home/benjamin/progs
-	st
-11
-d/home/benjamin/progs/st
-	config.mk
+	.local
 12
+d/home/benjamin/.local
+	bin
+1
+d/home/benjamin/.local/bin
+	statusbar
+3
+d/home/benjamin/.local/bin/statusbar
+	disk
+4
 d/home/benjamin
-	progs
-7
-d/home/benjamin/progs
-	st
-11
-d/home/benjamin/progs/st
-	config.mk
+	.config
+4
+d/home/benjamin/.config
+	sxhkd
+43
+d/home/benjamin/.config/sxhkd
+	sxhkdrc
+1
+d/home/benjamin
+	.config
+4
+d/home/benjamin/.config
+	i3
+19
+d/home/benjamin/.config/i3
+	config
+1
+d/home/benjamin/.config
+	getkeys
+13
+d/home/benjamin
+	.local
 12
+d/home/benjamin/.local
+	bin
+1
+d/home/benjamin/.local/bin
+	statusbar
+3
+d/home/benjamin/.local/bin/statusbar
+	battery
+1
+d/home/benjamin/.local/bin
+	statusbar
+3
+d/home/benjamin/.local
+	bin
+1
 d/home/benjamin
-	Downloads
+	.config
+4
+d/home/benjamin/.config
+	polybar
+34
+d/home/benjamin/.config/polybar
+	scripts
 2
-d/home/benjamin/Downloads
-	progs.csv
-48
-d/home/benjamin
-	Documents
+d/home/benjamin/.config/polybar/scripts
+	polybar-spotify
 1
-d/home/benjamin/Documents
-	projects
-7
-d/home/benjamin/Documents/projects
-	BARBS
+d/home/benjamin/.config/polybar/scripts/polybar-spotify
+	spotify_status.py
+4
+d/home/benjamin/.config/polybar/scripts
+	polybar-spotify
 1
-d/home/benjamin/Documents/projects/BARBS
-	progs.csv
-2
-d/home/benjamin/Documents/projects
-	BARBS
-1
-d/home/benjamin/Documents
-	projects
-7
-d/home/benjamin
-	Documents
-1
-d/home/benjamin/Documents
-	projects
-7
-d/home/benjamin/Documents/projects
-	BARBS
-1
-d/home/benjamin/Documents
-	529.pdf
-7
-d/home/benjamin
-	progs
-7
-d/home/benjamin/progs
-	projects
-9
-d/home/benjamin
-	progs
-11
+d/home/benjamin/.config/polybar/scripts/polybar-spotify
+	README.md
+3
+d/home/benjamin/.config/polybar/scripts
+	spotify_status.py
+3
 
 # Right window history (oldest to newest):
+D/home/benjamin/.config/polybar
+	user_modules.ini
+12
 D/home/benjamin/Documents/ENG101
 	..
 0
@@ -254,15 +260,10 @@ D/home/benjamin/Documents/book
 	
 0
 D/home/benjamin
-	
+	..
 0
 
 # Command line history (oldest to newest):
-: git config --global user.email "benjamin.anderson@zoho.com"
-:!git config --global user.email "benjamin.anderson@zoho.com"
-:kkkkkkkkkkkkkkkkkkkk
-:git gui
-:!python setup.py
 :!pip remove powerline-shell
 :!pip uninstall powerline-shell
 :!chmod +x battery.py
@@ -295,10 +296,16 @@ D/home/benjamin
 :!make clean && sudo make install
 :! git clone 
 :!./launch.sh
-:w
 :!make clean
 :!sudo make install
 :! git push origin master
+:! chmod +x battery-combined-udev.sh
+:mkdir scripts
+:w
+:!sudo chmod +x battery-combined-udev.sh
+:su
+:!chmod +x openweathermap-fullfeatured.sh
+:!chmod +x spotify_status.py
 
 # Search history (oldest to newest):
 /hosts
@@ -361,6 +368,7 @@ pprogs.csv
 # Local filter history (oldest to newest):
 
 # Registers:
+""/home/benjamin/.config/polybar/scripts/polybar-spotify/spotify_status.py
 
 # Directory stack (oldest to newest):
 
@@ -547,3 +555,15 @@ t/home/benjamin/.local/share/vifm/Trash/000_porn
 	/home/benjamin/progs/hosts/alternates/porn
 t/home/benjamin/.local/share/vifm/Trash/000_Test
 	/home/benjamin/Documents/Test
+t/home/benjamin/.local/share/vifm/Trash/000_GROFF-MOM
+	/home/benjamin/progs/projects/GROFF-MOM
+t/home/benjamin/.local/share/vifm/Trash/000_Resume
+	/home/benjamin/progs/projects/Resume
+t/home/benjamin/.local/share/vifm/Trash/000_classnotes
+	/home/benjamin/progs/projects/classnotes
+t/home/benjamin/.local/share/vifm/Trash/000_.steampath
+	/home/benjamin/.steampath
+t/home/benjamin/.local/share/vifm/Trash/000_kde
+	/home/benjamin/kde
+t/home/benjamin/.local/share/vifm/Trash/000_pkglist.txt
+	/home/benjamin/pkglist.txt
