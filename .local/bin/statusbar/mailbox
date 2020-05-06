@@ -14,5 +14,6 @@ case $BLOCK_BUTTON in
 esac
 mailcount=$(du -a ~/.local/share/mail/*/INBOX/new/* 2>/dev/null | sed -n '$=')
 
+[ "$mailcount" = "" ] && exit
 
-echo "$(echo  2>/dev/null) $(du -a ~/.local/share/mail/*/INBOX/new/* 2>/dev/null | sed -n '$=')"
+echo "$(echo  2>/dev/null) $mailcount"

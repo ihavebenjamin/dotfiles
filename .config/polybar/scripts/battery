@@ -18,9 +18,9 @@ elif [ "$capacity" -le 10 ]; then
 	printf "  "
 elif [ "$capacity" -le 25 ]; then
 	printf "  "
-elif [ "$capacity" -le 50 ]; then
+elif [ "$capacity" -le 55 ]; then
 	printf "  "
-elif [ "$capacity" -le 75 ]; then
+elif [ "$capacity" -le 90 ]; then
 	printf "  "
 else
 	printf "  "

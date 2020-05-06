@@ -3,11 +3,11 @@ let mapleader =","
 " PLUGINS{{{
 
 "{{{ Plug Config
-"if ! filereadable(expand('~/.config/vim/autoload/plug.vim'))
+if ! filereadable(expand('~/.config/vim/autoload/plug.vim'))
 	"echo "Downloading junegunn/vim-plug to manage plugins..."
 	"silent !mkdir -p ~/.config/nvim/autoload/
 	"silent !curl "https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim" > ~/.config/nvim/autoload/plug.vim
-"endif
+endif
 
 call plug#begin('~/.config/nvim/plugged')
 Plug 'tpope/vim-surround'
@@ -25,7 +25,7 @@ Plug 'kovetskiy/sxhkd-vim'
 Plug 'lervag/vimtex'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
-Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
+"Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
 Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
 Plug 'junegunn/vim-easy-align'
 Plug 'scrooloose/syntastic'

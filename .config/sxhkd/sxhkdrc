@@ -82,9 +82,11 @@ super + F4
 super + F5
 	sudo -A systemctl restart NetworkManager
 
-#super + F6
+super + F6
+	xinput enable "Synaptics TM3276-031"
 
-#super + F7
+super + F7
+	xinput disable "Synaptics TM3276-031"
 
 # sync email
 super + F8
